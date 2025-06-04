@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-03 20:57-0500\n"
-"PO-Revision-Date: 2025-06-03 20:57-0500\n"
+"POT-Creation-Date: 2025-06-03 21:03-0500\n"
+"PO-Revision-Date: 2025-06-03 21:03-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -18,14 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: app.py:9
+#: app.py:24
 msgid "Hello, World!"
 msgstr "Bonjour, le monde!"
-
-#: app.py:11
-#, python-format
-msgid "You have one message"
-msgid_plural "You have %(num)d messages"
-msgstr[0] "Vous avez un message"
-msgstr[1] "Vous avez %(num)d messages"
-
