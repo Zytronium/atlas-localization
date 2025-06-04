@@ -1,7 +1,6 @@
 # Localization
 
 ---
-###### Project Readme Template
-This project is all about something.
 
-###### Description and example of concepts in this project 
+This project is about localization in Python. This project is also
+entirely just following a tutorial.
