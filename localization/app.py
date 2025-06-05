@@ -15,10 +15,10 @@ babel = Babel(app)
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = './translations'
 
-class MyBabel(Babel):
-    def get_locale(self):
-        # Use request headers or a user-specific preference to determine locale
-        return request.accept_languages.best_match(['en', 'fr'])
+@babel.localeselector
+def get_locale():
+    # Use request headers or a user-specific preference to determine locale
+    return request.accept_languages.best_match(['en', 'fr'])
 
 @app.route('/')
 def index():
